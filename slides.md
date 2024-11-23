@@ -291,13 +291,15 @@ folks would join and just hang out. it felt like a club, and one that welcomed a
 <!--
 The other way we kept up with everyone was with our release demos.
 
-We started doing one with every minor version, but we saw two things happen.
+We started on a monthly schedule with every minor version, but we saw two things happen.
 
 First, we had a few months were we didn't have that much to share, not because we weren't busy, but because much of our work was rolling into the next major version.
 
 Second, as the company grew from around 10,000 employees to around 16,000, we could see meeting fatigue really set in.
 
 So we dialed it back to every six months, to match our major release schedule, and dialed it up to be even more polished and prepared.
+
+(option to introduce slide on predictability - minor and major, and even majors vs odd majors)
 -->
 
 ---
