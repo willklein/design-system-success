@@ -96,15 +96,14 @@ We weren't using our design system.
 
 ---
 layout: image
-image: paper.jpg
+image: paper.jpg # crumpled paper image here (todo)
 transition: fade-in
-level: 10
+level: 10 # what does level do? (todo)
 ---
 
 <!--
-At this point, our design system had lost.(edit) It would dream that the designers and developers of this essential user experience would not only be using it, but consulting it daily for guidance. That its components would permeate the designs in Figma, and its tokens and React components would be leveraged throughout the frontend. But not this time.
+At this point, our design system had lost. Success would have meant our team would not only be using it, but consulting it daily for guidance. That its components would permeate the designs in Figma, and its tokens and React components would be leveraged throughout the frontend. But that didn't happen.
 
-Let me tell you want happens next.
 -->
 
 ---
@@ -133,36 +132,47 @@ transition: fade-in
 # Will Klein
 
 <!--
-My name is Will Klein, and
-
 after seeing ours fail, I want to tell you
 
 what makes a design system win
-
 -->
 
 ---
 
 <!--
 
-I was the senior UI developer on this project, so why hadn't I used our design system?
+I was the senior UI developer on our product, so why hadn't I used our design system?
 
-I wondered this in the spring of 2020, as I joined the design system demo that was on my calendar, (edit) but I had never attended before.
+Two years in, I wondered this in the spring of 2020, as I joined a design system meeting that had always been on my calendar.
+
+It was the second time I joined one of their monthly demos. I liked what I was seeing, but I didn't have a clear way to connect their work to mine.
+
+-->
+
+---
+
+<!--
 
 I was friends with the design system team too.
 
-when they open sourced the design system a year earlier, i asked to announce it at a conference i got our company to sponsor.
+they open sourced the design system a year earlier, which I loved, we went out for drinks together to talk about it.
 
-I recommended two of my friends to the manager, (edit) who would later become the most senior contributors on the dev team.
+meanwhile, i had gotten our company to sponsor our first javascript conference, which _they_ loved
+
+Around this time I recommended a very good friend to the manager, he would immediately become their most senior developer.
+
+And a year later, I would recommend another rising star who I knew from the local meetup scene. He would soon establish himself as a leader. I had played a part in shaping this team, and it was already exceptional to begin with.
 
 -->
 
 ---
 
 <!--
-I also wondered about a career shift into developer relations, so I took a chance on proposing a wild idea.
+As the pandemic began, I needed a change for myself. I was experiencing the longest period of burnout in my entire career.
 
-I asked their manager: would they consider hiring me to get developers excited about the design system?
+So I wondered about a career shift, I thought of my friends, and I took a chance, proposing a wild idea.
+
+I asked their manager: would you consider hiring me to get developers excited about the design system? (edit)
 
 Four months later, I would become their design system developer advocate
 -->
