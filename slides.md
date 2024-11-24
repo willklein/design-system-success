@@ -172,16 +172,22 @@ As the pandemic began, I needed a change for myself. I was experiencing the long
 
 So I wondered about a career shift, I thought of my friends, and I took a chance, proposing a wild idea.
 
-I asked their manager: would you consider hiring me to get developers excited about the design system? (edit)
+I approached their manager, Lynn, and asked him if I could join the team.
 
-Four months later, I would become their design system developer advocate
+I wanted to change things for our entire UI community. I wanted to get people *excited* about the design system.
+
+I also told him how I was burned out - and - he would be taking a chance on me. I had never done this before. I knew frontend, but I did not know design systems.
+
+Despite my warnings - he was stoked (todo: fire/light bulb image).
+
+Four months later, I joined the team as their design system developer advocate.
 -->
 ---
 
 <!--
 Now before I continue any further in the story, I need to be clear about something.
 
-This team I was joining was exceptional. They were already doing an amazing job, but this was a very large enterprise software company, with over 10,000 employees and growing fast.
+This team I was joining ... was exceptional. They were already doing an amazing job, but this was a very large enterprise software company, with over 10,000 employees and growing fast.
 
 My experience as a non-consumer wasn't their fault, but a symptom of a common challenge across many design systems at growing organizations.
 
