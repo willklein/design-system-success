@@ -41,11 +41,12 @@ image: leaf.webp
 </div>
 
 <!--
+4:16:45
 Our story begins 6 years and 6 months ago...
 
 I started a new role at my first big tech company in the US, based in the Bay Area but out of an office in Boulder, Colorado.
 
-I joined a diverse and talented team of web and mobile developers, maybe the best team I would ever work on, in fact.
+I joined a diverse and talented team of web and mobile developers, maybe the best teams I would ever work on
 
 and we were tasked with improving the UX for over 60. million. users.
 -->
@@ -99,7 +100,7 @@ level: 10
 ---
 
 <!--
-At this point, our design system had lost. It would dream that the designers and developers of this essential user experience would not only be using it, but consulting it daily for guidance. That its components would permeate the designs in Figma, and its tokens and React components would be leveraged throughout the frontend. But not this time.
+At this point, our design system had lost.(edit) It would dream that the designers and developers of this essential user experience would not only be using it, but consulting it daily for guidance. That its components would permeate the designs in Figma, and its tokens and React components would be leveraged throughout the frontend. But not this time.
 
 Let me tell you want happens next.
 -->
@@ -144,13 +145,13 @@ what makes a design system win
 
 I was the senior UI developer on this project, so why hadn't I used our design system?
 
-I wondered this in the summer of 2020, as I joined the design system demo that was on my calendar, but I had never attended before.
+I wondered this in the spring of 2020, as I joined the design system demo that was on my calendar, (edit) but I had never attended before.
 
 I was friends with the design system team too.
 
 when they open sourced the design system a year earlier, i asked to announce it at a conference i got our company to sponsor.
 
-I recommended two of my friends to the manager, who would later become the most senior contributors on the dev team.
+I recommended two of my friends to the manager, (edit) who would later become the most senior contributors on the dev team.
 
 -->
 
@@ -161,22 +162,42 @@ I also wondered about a career shift into developer relations, so I took a chanc
 
 I asked their manager: would they consider hiring me to get developers excited about the design system?
 
-Four months later, I would become the design system developer advocate
+Four months later, I would become their design system developer advocate
 -->
 ---
 
 <!--
-All I can remember from my first year
+Now before I continue any further in the story, I need to be clear about something.
 
-was that I had no idea what I was doing.
+This team I was joining was exceptional. They were already doing an amazing job, but this was a very large enterprise software company, with over 10,000 employees and growing fast.
 
-At least, it felt that way, but I hoped...
+My experience as a non-consumer wasn't their fault, but a symptom of a common challenge across many design systems at growing organizations.
+
+This is also a common thread in areas outside of design systems, in platform engineering teams, and really, anytime you produce code or design that other teams depend on, it can be a battle to win over consumers and get traction with complete strangers.
+
+It is extremely likely that if you haven't already, you will encounter this kind of challenge in your career, design systems or elsewhere.
+-->
+---
+
+<!--
+4:21:00
+When I started,
+
+I really had no idea what I was doing.
+
+At least, it felt that way, but I had some gut feelings about what I needed try.
+
+-->
+
+---
+
+<!--
 
 Past Me was was the problem the Present Me needed to solve.
 
-Past me was focused on my team's mission, too busy to check out the design system, which was NOT in the designs, and while we had a few tokens imported in our code base, the library version was years out of date.
+Past me was focused on my team's mission, too busy to check out the design system, which was NOT in the designs we were using, and while we had a few tokens imported in our code base, the library version was years out of date.
 
-We did have several products using our design system, but there were all too many that were apathetic.
+(edit) We did have several products using our design system, but there were all too many that were apathetic.
 
 They didn't know, they didn't care.
 
@@ -184,17 +205,16 @@ I developed a simple hypothesis:
 
 Developers aren't going to use the design system because it exists.
 
-They are going to use whatever helps them ship their team's product.
-
+They are going to use whatever helps them ship their team's product. (edit)
 -->
 ---
 
 > Be so good they can't ignore you
 
 <!--
-I love this quote from actor Steve Martin.
+I love this quote from the actor Steve Martin.
 
-But what makes a design system "good?"
+But what makes a design system "good?" (edit)
 
 Our design and our code were both very good. As good as you would hope, and as we would deliver my first major release the following May, I truly believed they were excellent.
 
@@ -209,15 +229,15 @@ Something else needed to change.
 <!--
 This wasn't me - our team was already showing up in every UI conversation they could find.
 
-If someone asked about React, web fundamentals, or TypeScript, someone was there to answer questions. It wasn't even about supporting the design system. We had UI experts, and those UI experts were handing out their expertise like free candy.
+If someone asked about React, web fundamentals, or TypeScript, someone was there to answer questions. It wasn't even about supporting the design system. We had UI experts, (edit) and those UI experts were handing out their expertise like free candy.
 
-This wasn't about telling people to use the design system.
+This wasn't about telling people to use the design system either.
 
 It was about being helpful. Being helpful builds trust.
 
-Building trust builds reputation. The marketing word for this is "branding."
+Building trust builds reputation.
 
-And of course, if someone had a design system question, we were on it as fast as someone saw it, and often, two or more developers were in the conversation helping out. Early on, we had lots of questions, and we answered them in our dedicated design system channel in Slack.
+And of course, if someone had a design system question, we were on it as fast as someone saw it, and often, two or more developers  from our team were in the conversation helping out. Early on, we had lots of questions, and we answered them in our dedicated design system channel in Slack.
 -->
 ---
 
@@ -241,7 +261,7 @@ Before long, our generous sharing of expertise, coupled with an ever-friendly an
 <!--
 When our fifth major version came out in May of 2021, I would give my first release demo. We had significant changes to our component API.
 
-We bet the house on compound components. We would make our components not rigid and fixed, but flexible and adaptable.
+We bet the house on compound components. We would make our components not rigid and fixed, but flexible and adaptable. (need animated upgrade)
 
 We didn't expect everyone to understand this change though. Our code examples went from a single line to sometimes 30 lines of JSX.
 
@@ -265,9 +285,11 @@ Of course we would use our design system components in the example app, and care
 
 The true objective and measure of our workshop's success was if we could level up developers across the company.
 
+(edit) we promised them...
+
 We had so many sign ups we offered it twice and reached a staggering percentage of our product teams.
 
-I would give it again the following spring, and less than a year later with three new members of our team, we unveiled a new workshop that taught the fundamentals of responsive design with CSS breakpoints and a few new tricks we had woven into the design system.
+I would give it again the following spring, and less than a year later with three new members of our team, we unveiled a new workshop that taught the fundamentals of responsive design with our new grid/flex component, CSS breakpoints and a few new tricks we had woven into the design system.
 -->
 
 ---
@@ -283,17 +305,18 @@ Then our consumers would join, and it would get so busy that I would create brea
 
 After a while, we developed a group of regulars.
 
-folks would join and just hang out. it felt like a club, and one that welcomed anyone and everyone. if they didn't have any questions, I'd just ask them what they were working on and we'd learn more about the problems our product teams were solving, which is great for understanding what problems we needed to solve.
+folks would join and just hang out. it felt like a club, one that welcomed anyone and everyone. if they didn't have any questions, I'd just ask them what they were working on and we'd learn more about the problems our product teams were solving, which is great for understanding what problems we needed to solve.
 -->
 
 ---
 
 <!--
+4:28:15 (edit) maybe demo gif of apple
 The other way we kept up with everyone was with our release demos.
 
 We started on a monthly schedule with every minor version, but we saw two things happen.
 
-First, we had a few months were we didn't have that much to share, not because we weren't busy, but because much of our work was rolling into the next major version.
+First, we had a few months were we didn't have that much to share, not because we weren't busy, but because much of our work was rolling into the next major version. we developed a strategy... (edit)
 
 Second, as the company grew from around 10,000 employees to around 16,000, we could see meeting fatigue really set in.
 
@@ -307,7 +330,7 @@ So we dialed it back to every six months, to match our major release schedule, a
 <!--
 I'll never forget my last release demo in May 2023. Along with a design partner in Ireland, Zoe, thank you by the way, we put together a Boy Bands theme.
 
-We had a playlist of pop favorites from the late 90s and early 2000s. We dressed up like we were pop stars, and sprinkled lyrics everywhere in our presentation.
+We had a playlist of pop favorites from the late 90s and early 2000s. We dressed up like we were music stars, and sprinkled lyrics everywhere in our presentation.
 
 we made it a party, and I think this was an undercount, but I think we had somewhere over 70 folks join in our single biggest Zoom call ever
 -->
@@ -318,9 +341,9 @@ So...
 
 what did this do for adoption?
 
-well, while I was tracking demo attendance and Slack statistics to track our community, my friend Alan was measuring component usage and library version this month by month.
+well, while I was tracking demo attendance and Slack statistics to track our community,(edit - consider showing a trend of community and a ? for usage) my friend Alan was measuring component usage and library version (edit) month by month.
 
-Not only did we see our adoption grow and accelerate, but Alan led the effort to reach out to product teams directly, to make sure they knew how we could help them ship faster using the design system, and also find out why some were years behind on their library version.
+Not only did we see our adoption grow and accelerate, but Alan led the effort to reach out to product teams directly, to make sure they knew how we could help them ship faster using the design system, and also find out why some projects were years behind on their library version.
 -->
 ---
 
@@ -329,11 +352,11 @@ It turns out there was significant lag between when we released a major version,
 
 Early on in my tenure, we had a brainstorm session on what would go into our v5 release in the spring of 2021. I knew how tedious it was to manually edit potentially hundreds of lines of code in a repo, just to update a single dependency. Dependency management was painful, no matter how you went about it.
 
-We were moving to compound components too, and that meant expanding one line of JSX into many more.
+We were moving to compound components too, and that often meant expanding one line of JSX into many more.
 
-So I asked: what if we shipped code mods in v5? We would automate many of our breaking changes.
+So I asked: what if we shipped code mods in v5? We could automate many of our breaking changes.
 
-This would become a staple of every major release. Breaking changes? Yes. Hundreds of lines impacted? Ummm, yeah. You can apply this in minutes? Woah (use the Keanu gif!).
+the team... (edit) This would become a staple of every major release. Breaking changes? Yes. Hundreds of lines impacted? Ummm, yeah. You can apply this in minutes? Woah (use the Keanu gif!).
 
 -->
 ---
@@ -350,7 +373,7 @@ OK, quick timeout, I'm giving a workshop tomorrow on how to write your own code 
 <!--
 We didn't just ship code mods, but rich upgrade guides.
 
-They were called migration guides, but I made a subtle change to call them upgrade guides - hoping that would give the impression it wasn't as dramatic a change.
+They were called migration guides, but I made a subtle change to call them upgrade guides - hoping that would give the impression it wasn't as dramatic a change. We didn't want to scare anyone with the perceived effort.
 
 We clearly spelled out in every guide what components were impacted.
 
@@ -358,11 +381,11 @@ We described how this would affect design and visual presentation.
 
 We described how it would change the implementation in code.
 
-We noted if there was a code mod, which couldn't always be done, but happened for almost everything.
+We noted if there was a code mod, which couldn't always be done, but happened for almost everything. (edit - need a pseudo table of this)
 
 And in our release demos, we wouldn't just showcase our new components, but walk through the impact of every change.
 
-I remember a particular office hours where someone joined to ask about updating their library from 4 versions back. We did a screen share, opened up our update guide, and I went and ran the code mods. We bumped to the next version, and I ran the code mods again. They were so impressed, they asked to end the call, they wanted to try the last two upgrades without me, assisted by the upgrade guide and our code mods.
+I remember a particular office hours where someone joined to ask about updating their library from 4 versions back. We did a screen share, opened up our upgrade guide, and I went and ran the code mods. We bumped to the next version, and I ran the code mods again. They were so impressed, they asked to end the call, they wanted to try the last two upgrades without me, assisted by the upgrade guide and our code mods.
 
 A half hour later, they told me they were done, and their product was all caught up. We had moved them up four major versions in well under an hour.
 
@@ -376,19 +399,23 @@ Remember our Slack channel?
 
 It tripled in size over 2 and a half years.
 
-We continued to field questions and challenges that were intended for other teams, like when our platform engineering team :cough: at mentioned everyone in the channel about the React 18 upgrade, and how it was happening in a month's time - actually leaving a number of teams scrambling to account for it.
+We continued to field questions and challenges that were intended for other teams, like when our platform engineering team :cough: at mentioned everyone in the channel about a required React 18 upgrade (meme about woah what), and how it was happening in a month's time - actually leaving a number of teams scrambling to account for it.
 
-It was the biggest UI channel in our company's Slack, so yeah, if you want to get the word out, @ mention everyone.
+It was the biggest UI channel in our company's Slack, so yeah, if you want to get the word out, (edit use it)@ mention everyone.
 
-By the way, we never @ mentioned anyone. We always made our announcements shiny but concise. We would say "more details are in the thread" with only the most interesting parts mentioned in a brief message.
+By the way, we never @ mentioned anyone. We always made our announcements shiny but concise. We would say "more details are in the thread" with only the most interesting parts mentioned in the initial message.
 
-We considered everyone's time and attention to be precious, so we made sure every communication with our community was well-crafted and thoughtful.
+We considered everyone's time and attention to be precious, so we made sure every communication with our community was well-crafted and thoughtful. ((edit) consider citing My here)
 
-But when this React 18 grenade went off, we jumped on it. We actually saw a consequential impact that we believed could actually hurt our entire company's performance. People were actually quite upset, and I remember joining a call, having invited folks from the platform team, that did not attend, and after 30 minutes they would realize:
+But when this React 18 grenade went off, we jumped on it. We believed it would have a consequential impact that could hurt our entire company's performance. Some teams were actually quite upset, they had their own deadlines and milestones established, and this was coming from a place they didn't expect(edit).
 
-it wasn't the design system team that had made the call on executing the React dependency change. We actually supported the new version I think a year in advance, and we continued to be backwards compatible with React 17 for some time after this. But we cared that their concerns were heard, and while we might not have pulled the pin on the grenade, we were there to put it back.
+I remember joining a call to help one of those teams, I invited the right folks from the platform team, they did not attend, and after 30 minutes the product team would realize:
 
-I remember I was really upset the first time this happened in 2022. I dropped everything and scrambled to help address the issue. But... in 2023 a different team from the same group would make the same. exact. mistake.
+it wasn't the design system team that had made the call on executing the React dependency change. they were mad at us at first, because the way the platform team had announced it, in our channel, it made it seem like we were the ones responsible.
+
+We were coming from a very different place of support and compatibility. We supported the new version of react I think about a year in advance, and we continued to be backwards compatible with React 17 for some time after this. (edit show a timeline where we were cool) But we cared that their concerns were heard, and while we might not have pulled the pin on the grenade, we were there to put it back.
+
+I remember I was really upset the first time this happened in 2022. I dropped everything and scrambled to help address the issue. But... in 2023 a different team from the same group would make the same. exact. mistake. (edit why have this)
 -->
 
 ---
@@ -400,9 +427,9 @@ Over this time, we established many friends through office hours, demos, and jum
 
 Over this time, we would hear from new people, and they would tell us, that our friends had spoken very highly of us. Keep in mind, we were never "mandated" to product teams to use. We had to earn our place in their tech stack. And earn it we did. But what really got us there, couldn't be the effort of a single developer advocate, or even our entire team.
 
-It was our friends that were advocating us, behind their own closed doors, around the world in Canada, the bay area, Ireland, and other offices around Europe.
+It was our friends that were advocating FOR us, behind their own closed doors, around the world in Canada, the bay area, Ireland, and other offices around Europe. We heard about it quite a lot - which tells me... it was happening many times more.
 
-At times, we saw it in our SLack channel too. We were quick, maybe too quick, to answer questions, but we would see folks around the community show up and help out. Our team could take time off, and questions would get answered, not by us, but by the community itself.
+At times, we saw it in our SLack channel too. We were quick, maybe too quick, to answer questions, but we would see folks around the community show up and help out. Our team could take time off, and questions would still get answered, not by us, but by the community itself.
 -->
 ---
 
@@ -414,7 +441,7 @@ I gave my last workshop, and completed seven other projects in that month to sen
 
 If there's anything I hope you'll gather from this talk, I hope you see it's not the design or the code that will make a design system.
 
-Frankly, to deliver accessible and useful components, it takes the best of us to make that happen.
+Frankly, to deliver accessible and useful components (edit) that serve..., it takes the best of us doing our best work to make that happen.
 
 But what will make the difference isn't how good we implement, or even deliver.
 
@@ -424,7 +451,7 @@ I hope we build communities that are warm, and helpful.
 
 I hope we make friends that we share our time and energy with generously.
 
-I hope we help out even when it's not our fault, because we care about everyone involved.
+I hope we help out even when it's not our proble (edit), because we care about everyone involved.
 
 I hope we have fun, I hope we make it a party.
 
@@ -441,7 +468,7 @@ fade in email, socials, and thank you
 I'm here if you ever want to talk about design systems, it's one of my favorite subjects, along with improving the developer experience.
 
 Thank you.
-
+4:42:45
 -->
 ---
 
