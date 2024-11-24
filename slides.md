@@ -41,6 +41,8 @@ image: leaf.webp
 </div>
 
 <!--
+hey everyone, let's go... (consider a glitch effect on a talk slide that looks boring -> into a picture filled with energy, excitement, and ambition)
+
 4:16:45
 Our story begins 6 years and 6 months ago...
 
@@ -443,7 +445,10 @@ If there's anything I hope you'll gather from this talk, I hope you see it's not
 
 Frankly, to deliver accessible and useful components (edit) that serve..., it takes the best of us doing our best work to make that happen.
 
-But what will make the difference isn't how good we implement, or even deliver.
+But what will make the difference isn't how good we implement, or even deliver. It takes something else built atop our technical excellence. That is what I hope we learn to do.
+-->
+
+<!--
 
 I hope we create a developer experience that people can only fall into, like a pit of success, and they can't help but build great things. and of course, a designer experience that does the same
 
