@@ -25,10 +25,11 @@ overviewSnapshots: true
 
 ---
 layout: image
-image: leaf.webp
+image: flatirons.jpg
 ---
 
-# Part 1
+# Boulder, Colorado, USA
+# 2018
 
 <div class="abs-br m-6 flex gap-2">
   <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
@@ -40,6 +41,13 @@ image: leaf.webp
   </a>
 </div>
 
+<style>
+  h1 {
+    color: #000;
+  }
+</style>
+
+
 <!--
 hey everyone, let's go... (consider a glitch effect on a talk slide that looks boring -> into a picture filled with energy, excitement, and ambition)
 
@@ -48,9 +56,11 @@ Our story begins 6 years and 6 months ago...
 
 I started a new role at my first big tech company in the US, based in the Bay Area but out of an office in Boulder, Colorado.
 
-I joined a diverse and talented team of web and mobile developers, maybe the best teams I would ever work on
+I joined a diverse and talented team of web and mobile developers, one the best teams I would ever work on
 
 and we were tasked with improving the UX for over 60. million. users.
+
+for me, that was the most I have ever served
 -->
 
 ---
@@ -60,9 +70,9 @@ transition: fade-out
 <!--
 This was an enterprise app, where a hundred products were smashed together into a single frankenstein of a user experience.
 
-and back in 2018, "conversational UI" was still trending, so we set out to build a chat assistant that would be a hero to our users.
+and back in 2018, "conversational UI" was still trending, so we set out to build a chat assistant to help save to our users.
 
-our mission was to make the most common tasks in our app possible in a few brief messages using our pre-chatgpt AI assistant. our team would deliver a UI component that would exist everywhere, all the time in the app.
+our mission was to make the most common tasks in our app possible in a few brief messages using our AI assistant. our team would deliver a UI component that would exist everywhere, all the time in the app.
 
 floating in the bottom right corner of every web page, and taking one of four navigation icons in our mobile presence.
 
@@ -75,21 +85,18 @@ And after two years building and shipping our little chat bubble, we had succeed
 
 Over 60M users
 
-an immediate improvement in several key user flows
+no major issues or bugs
 
-no major issues in production
+I could request time off or take a sick day with a quick chat message
 
-and barely any defects at that.
-
-we did it.
+we _did_ it
 -->
 ---
 
 <!--
+But there was a unnoticeable failure behind the scenes
 
-But there was a failure on an unnoticeable level
-
-for such a pivotal element of our user experience, we had not relied on another pivotal element of our user experience.
+for such a pivotal element of our user experience, we had shipped it without including a critical resource
 
 We weren't using our design system.
 -->
@@ -102,8 +109,10 @@ level: 10 # what does level do? (todo)
 ---
 
 <!--
-At this point, our design system had lost. Success would have meant our team would not only be using it, but consulting it daily for guidance. That its components would permeate the designs in Figma, and its tokens and React components would be leveraged throughout the frontend. But that didn't happen.
+While our product had won,
+our design system had lost.
 
+My team did not consult it for guidance. We did not rely on its design components in Figma, and our frontend ignored its tokens and React components.
 -->
 
 ---
@@ -140,31 +149,34 @@ what makes a design system win
 ---
 
 <!--
-
 I was the senior UI developer on our product, so why hadn't I used our design system?
 
-Two years in, I wondered this in the spring of 2020, as I joined a design system meeting that had always been on my calendar.
+Two years in, I wondered this in the spring of 2020, as I joined a demo for our design system meeting for the second time in a year.
 
-It was the second time I joined one of their monthly demos. I liked what I was seeing, but I didn't have a clear way to connect their work to mine.
-
+I liked what I was seeing, their work was good, but I didn't have a clear way to connect their work with mine.
 -->
 
 ---
 
 <!--
-
 I was friends with the design system team too.
 
-they open sourced the design system a year earlier, which I loved, we went out for drinks together to talk about it.
+they open sourced the design system a year earlier, which I was very excited for, and we went out for drinks to talk about it.
 
-meanwhile, i had gotten our company to sponsor our first javascript conference, which _they_ loved
+meanwhile, i had gotten our company to sponsor our first javascript conference, which _they_ excited about.
 
-Around this time I recommended a very good friend to the manager, he would immediately become their most senior developer.
+We both believed in sharing our work with the broader community, in giving back, in sharing what we love.
 
-And a year later, I would recommend another rising star who I knew from the local meetup scene. He would soon establish himself as a leader. I had played a part in shaping this team, and it was already exceptional to begin with.
+A very good friend of mine was looking for a design system to work on, and I recommended him to the manager. He would immediately become their most senior developer and strongest technical leader.
 
+And a year later, I would recommend another rising star who I knew from the local meetup scene, and he would later become a second staff level developer on the team.
+
+I had played a major role in shaping this team, and it was already exceptional to begin with.
 -->
 
+---
+layout: image
+image: phone.jpg
 ---
 
 <!--
@@ -172,29 +184,52 @@ As the pandemic began, I needed a change for myself. I was experiencing the long
 
 So I wondered about a career shift, I thought of my friends, and I took a chance, proposing a wild idea.
 
-I approached their manager, Lynn, and asked him if I could join the team.
+I was on parental leave for our third child, wondering how I would turn things around. So I approached their manager, Lynn, about my experience NOT using their system.
 
-I wanted to change things for our entire UI community. I wanted to get people *excited* about the design system.
+I wanted to change things for not just my current team, but our entire UI community. I wanted to get people *excited* about the design system.
 
-I also told him how I was burned out - and - he would be taking a chance on me. I had never done this before. I knew frontend, but I did not know design systems.
-
-Despite my warnings - he was stoked (todo: fire/light bulb image).
-
-Four months later, I joined the team as their design system developer advocate.
+I also told him how I was burned out - and - he would be taking a chance on me. I had never worked in developer relations. I knew frontend, but I did not know design systems.
 -->
+
+---
+layout: image
+image: bulb.jpg
 ---
 
 <!--
+
+Despite my warnings - he was thrilled with the idea (todo: fire/light bulb image).
+
+Four months later, I joined the team as their design system developer advocate.
+
 Now before I continue any further in the story, I need to be clear about something.
 
 This team I was joining ... was exceptional. They were already doing an amazing job, but this was a very large enterprise software company, with over 10,000 employees and growing fast.
+-->
+---
+layout: image
+image: bridge-frame.webp
+---
+
+<!--
 
 My experience as a non-consumer wasn't their fault, but a symptom of a common challenge across many design systems at growing organizations.
 
 This is also a common thread in areas outside of design systems, in platform engineering teams, and really, anytime you produce code or design that other teams depend on, it can be a battle to win over consumers and get traction with complete strangers.
 
-It is extremely likely that if you haven't already, you will encounter this kind of challenge in your career, design systems or elsewhere.
+It is extremely like`ly that if you haven't already, you will encounter this kind of challenge in your career, design systems or elsewhere.
+
+Getting the attention of busy product developers is hard.
+
+Keeping their attention is hard.
+
+It's already hard enough to build a great design system, in terms of code and design.
+
+Good luck doing that and winning the attention game.
 -->
+---
+layout: image
+image: glass-2.webp
 ---
 
 <!--
@@ -492,6 +527,7 @@ Thank you.
 4:42:45
 -->
 ---
+
 
 ---
 <!-- https://sli.dev/guide/animations.html#click-animation -->
