@@ -16,20 +16,12 @@ class: text-center
 drawings:
   persist: false
 # slide transition: https://sli.dev/guide/animations.html#slide-transitions
-transition: slide-left
+# transition: slide-left
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
 # take snapshot for each slide in the overview
 overviewSnapshots: true
 ---
-
----
-layout: image
-image: flatirons.jpg
----
-
-# Boulder, Colorado, USA
-# 2018
 
 <div class="abs-br m-6 flex gap-2">
   <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
@@ -40,27 +32,41 @@ image: flatirons.jpg
     <carbon-logo-github />
   </a>
 </div>
+---
+layout: image
+image: flatirons.jpg
+---
+
+# Boulder, Colorado, USA
+## March 2018
+
 
 <style>
   h1 {
     color: #000;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 64px;
+  }
+  h2 {
+    color: #000;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 48px;
   }
 </style>
 
 
 <!--
-hey everyone, let's go... (consider a glitch effect on a talk slide that looks boring -> into a picture filled with energy, excitement, and ambition)
 
-4:16:45
-Our story begins 6 years and 6 months ago...
+There's this beautiful and iconic geographic feature called the Flatirons. If you live or work in the city of Boulder, you can see it from anywhere.
 
-I started a new role at my first big tech company in the US, based in the Bay Area but out of an office in Boulder, Colorado.
+Back in March 2018, I started working in Boulder, and I could see it everyday I went to work.
 
-I joined a diverse and talented team of web and mobile developers, one the best teams I would ever work on
+I joined a big tech company to work on a flagship project. The kind of thing that moves the stock price.
 
-and we were tasked with improving the UX for over 60. million. users.
+our challenge... was to improve the UX for over 60. MILLION. users.
 
-for me, that was the most I have ever served
 -->
 
 ---
@@ -68,11 +74,11 @@ transition: fade-out
 ---
 
 <!--
-This was an enterprise app, where a hundred products were smashed together into a single frankenstein of a user experience.
+This was an enterprise app, where a hundred products were shuffled together into a single frankenstein of a user experience.
 
 and back in 2018, "conversational UI" was still trending, so we set out to build a chat assistant to help save to our users.
 
-our mission was to make the most common tasks in our app possible in a few brief messages using our AI assistant. our team would deliver a UI component that would exist everywhere, all the time in the app.
+our mission was to make the most common tasks in our app possible in a few brief messages using our AI assistant. our team would deliver a UI component that would exist everywhere, all the time, in the app.
 
 floating in the bottom right corner of every web page, and taking one of four navigation icons in our mobile presence.
 
@@ -87,25 +93,29 @@ Over 60M users
 
 no major issues or bugs
 
-I could request time off or take a sick day with a quick chat message
+and it some things really easy to do, quickly, like submit a time off request in just a couple chat messages
 
 we _did_ it
 -->
 ---
+layout: image
+image: missing-piece.jpg
+---
 
 <!--
-But there was a unnoticeable failure behind the scenes
+But there was a hidden failure behind the scenes
 
 for such a pivotal element of our user experience, we had shipped it without including a critical resource
+
+...
 
 We weren't using our design system.
 -->
 
 ---
 layout: image
-image: paper.jpg # crumpled paper image here (todo)
+image: paper-dark.jpg # crumpled paper image here (todo)
 transition: fade-in
-level: 10 # what does level do? (todo)
 ---
 
 <!--
@@ -113,8 +123,23 @@ While our product had won,
 our design system had lost.
 
 My team did not consult it for guidance. We did not rely on its design components in Figma, and our frontend ignored its tokens and React components.
+
+Our UI design was good, but at what cost.
+
+If our design system was to evolve, we wouldn't change with it. Instead of building a bridge to a more cohesive visual experience, we potentially made the problem much worse.
 -->
 
+---
+layout: image
+image: paper.jpg
+transition: fade-in
+---
+
+
+<!--
+after seeing ours fail, I want to tell you
+
+-->
 ---
 layout: image
 image: paper.jpg
@@ -141,35 +166,48 @@ transition: fade-in
 # Will Klein
 
 <!--
-after seeing ours fail, I want to tell you
 
 what makes a design system win
 -->
 
+
+---
+layout: image
+image: zoom.jpg
 ---
 
 <!--
 I was the senior UI developer on our product, so why hadn't I used our design system?
 
-Two years in, I wondered this in the spring of 2020, as I joined a demo for our design system meeting for the second time in a year.
+It was at the beginning of the pandemic when I joined the Zoom call for the design system montly demo. It had been on my calendar for over a year, and it was maybe the second time I was attending.
 
 I liked what I was seeing, their work was good, but I didn't have a clear way to connect their work with mine.
 -->
 
 ---
+layout: image
+image: bump.jpg
+---
 
 <!--
 I was friends with the design system team too.
 
-they open sourced the design system a year earlier, which I was very excited for, and we went out for drinks to talk about it.
+they open sourced the design system a year earlier, which I was very excited see
 
-meanwhile, i had gotten our company to sponsor our first javascript conference, which _they_ excited about.
+meanwhile, i had gotten our company to sponsor our first javascript conference, which _they_ were excited to see.
 
 We both believed in sharing our work with the broader community, in giving back, in sharing what we love.
+-->
 
-A very good friend of mine was looking for a design system to work on, and I recommended him to the manager. He would immediately become their most senior developer and strongest technical leader.
+---
+layout: image
+image: hire.jpg
+---
 
-And a year later, I would recommend another rising star who I knew from the local meetup scene, and he would later become a second staff level developer on the team.
+<!--
+The year before, a very good friend of mine was looking for a design system to work on, and I recommended him to the manager. He would immediately become their most senior developer and strongest technical leader.
+
+And a year later, shortly before the Zoom call, I would recommend another rising star who I knew from the local meetup scene, and he would eventually become a second staff level developer on the team.
 
 I had played a major role in shaping this team, and it was already exceptional to begin with.
 -->
@@ -180,15 +218,17 @@ image: phone.jpg
 ---
 
 <!--
-As the pandemic began, I needed a change for myself. I was experiencing the longest period of burnout in my entire career.
+As the pandemic began, I needed a change for myself. I was experiencing the longest period of burnout in my entire career, and it was only getting worse.
 
-So I wondered about a career shift, I thought of my friends, and I took a chance, proposing a wild idea.
+I thought about trying a different kind of work, I looked at the design system problem, and I took a chance on a wild idea.
 
-I was on parental leave for our third child, wondering how I would turn things around. So I approached their manager, Lynn, about my experience NOT using their system.
+I was on parental leave for our third child, when I asked their manager, Lynn, if he would jump on a call with me.
 
-I wanted to change things for not just my current team, but our entire UI community. I wanted to get people *excited* about the design system.
+I brought up my experience NOT using their system.
 
-I also told him how I was burned out - and - he would be taking a chance on me. I had never worked in developer relations. I knew frontend, but I did not know design systems.
+and, I wanted to change things for not just my current team, but our entire UI community. I wondered what could happen if we got people *excited* about the design system.
+
+I also told him how I was burned out - and - he would be taking a real risk if he hired me. I had never worked in developer relations. I knew frontend, but I did not know design systems.
 -->
 
 ---
@@ -198,13 +238,13 @@ image: bulb.jpg
 
 <!--
 
-Despite my warnings - he was thrilled with the idea (todo: fire/light bulb image).
+Despite my warnings - he was thrilled with the idea
 
 Four months later, I joined the team as their design system developer advocate.
 
-Now before I continue any further in the story, I need to be clear about something.
+Now before I continue any further in the story, I need to be very clear about something.
 
-This team I was joining ... was exceptional. They were already doing an amazing job, but this was a very large enterprise software company, with over 10,000 employees and growing fast.
+This team I was joining ... was exceptional. They were already doing an amazing job, but this was a very large software company, with over 12,000 employees at this point, and it would only grow from there.
 -->
 ---
 layout: image
@@ -213,11 +253,11 @@ image: bridge-frame.webp
 
 <!--
 
-My experience as a non-consumer wasn't their fault, but a symptom of a common challenge across many design systems at growing organizations.
+My experience as a non-consumer wasn't their fault, but a symptom of a common challenge across many design systems at growing companies.
 
-This is also a common thread in areas outside of design systems, in platform engineering teams, and really, anytime you produce code or design that other teams depend on, it can be a battle to win over consumers and get traction with complete strangers.
+This is also a common challenge in areas outside of design systems, in platform engineering teams, and really, anytime you produce code or design that other teams depend on, it can be a battle to win over consumers and earn their adoption.
 
-It is extremely like`ly that if you haven't already, you will encounter this kind of challenge in your career, design systems or elsewhere.
+It is extremely likely that if you haven't already, you will encounter this kind of challenge in your career, design systems or elsewhere.
 
 Getting the attention of busy product developers is hard.
 
@@ -233,7 +273,6 @@ image: glass-2.webp
 ---
 
 <!--
-4:21:00
 When I started,
 
 I really had no idea what I was doing.
@@ -243,46 +282,57 @@ At least, it felt that way, but I had some gut feelings about what I needed try.
 -->
 
 ---
+layout: image
+image: building.jpg
+---
 
 <!--
 
 Past Me was was the problem the Present Me needed to solve.
 
-Past me was focused on my team's mission, too busy to check out the design system, which was NOT in the designs we were using, and while we had a few tokens imported in our code base, the library version was years out of date.
+Past me was focused on my team's mission, too busy to check out the design system.
 
-(edit) We did have several products using our design system, but there were all too many that were apathetic.
+There _were_ other product teams using our design system, but there were all too many that were apathetic.
 
 They didn't know, they didn't care.
-
-I developed a simple hypothesis:
-
-Developers aren't going to use the design system because it exists.
-
-They are going to use whatever helps them ship their team's product. (edit)
 -->
+
+---
+layout: image
+image: good.jpg
 ---
 
-> Be so good they can't ignore you
-
 <!--
-I love this quote from the actor Steve Martin.
+I love this quote from the American actor Steve Martin.
 
-But what makes a design system "good?" (edit)
+But what makes a design system THAT good. So good, it's impossible to ignore.
 
-Our design and our code were both very good. As good as you would hope, and as we would deliver my first major release the following May, I truly believed they were excellent.
+Our design and our code were both very good. As good as you would hope, and as we would deliver my first major release the following May, 2021, I truly believed they were excellent.
 
 Something else needed to change.
 
 -->
 
 ---
+layout: image
+image: help.jpg
+---
 
-> Be so *helpful* they can't ignore you
+# Be so *helpful* they can't ignore you
+
+<style>
+  h1 {
+    background-color: #000;
+    font-size: 54px;
+    line-height: 54px;
+  }
+</style>
 
 <!--
-This wasn't me - our team was already showing up in every UI conversation they could find.
 
-If someone asked about React, web fundamentals, or TypeScript, someone was there to answer questions. It wasn't even about supporting the design system. We had UI experts, (edit) and those UI experts were handing out their expertise like free candy.
+This didn't start with me - our team was already showing up in every UI conversation they could find.
+
+If someone asked about React, web fundamentals, or TypeScript, someone was there to answer questions. It wasn't even about supporting the design system. We had UI experts, and they were showing up whenever they were needed.
 
 This wasn't about telling people to use the design system either.
 
@@ -290,11 +340,16 @@ It was about being helpful. Being helpful builds trust.
 
 Building trust builds reputation.
 
-And of course, if someone had a design system question, we were on it as fast as someone saw it, and often, two or more developers  from our team were in the conversation helping out. Early on, we had lots of questions, and we answered them in our dedicated design system channel in Slack.
+And of course, if someone had a design system question, we were on it as fast as someone saw it
+
+and often, two or more developers from our team were in the conversation to show support.
+
+I got to see the questions grow in frequency, with more people joining our design system developer channel in Slack.
 -->
 ---
-
-# The customer is _mostly_ right. About something.
+layout: image
+image: listen.jpg
+---
 
 <!--
 One thing we believed, was if someone had a problem using our design system, that meant there was something we could improve.
@@ -309,12 +364,14 @@ Before long, our generous sharing of expertise, coupled with an ever-friendly an
 
 -->
 ---
-
+layout: image
+image: trojan.jpg
+---
 
 <!--
 When our fifth major version came out in May of 2021, I would give my first release demo. We had significant changes to our component API.
 
-We bet the house on compound components. We would make our components not rigid and fixed, but flexible and adaptable. (need animated upgrade)
+We bet the house on compound components. We would make our components not rigid and fixed, but flexible and adaptable.
 
 We didn't expect everyone to understand this change though. Our code examples went from a single line to sometimes 30 lines of JSX.
 
@@ -326,11 +383,23 @@ so we created a trojan horse.
 -->
 
 ---
+layout: image
+image: bulbs.jpg
+---
 
-> I will teach you something you need to be a better developer
+# Workshops
+
+<style>
+  h1 {
+    background-color: #000;
+    font-size: 64px;
+    line-height: 80px;
+    width: 340px;
+  }
+</style>
 
 <!--
-During our demo, we announced our first workshop: an introduction to compound components.
+During our demo, we announced our first workshop: an introduction to compound components. Its focus was on React patterns and how access to the underlying DOM elements was a more powerful way to use our API.
 
 I didn't say it was about the design system, because at its core, it really wasn't.
 
@@ -338,11 +407,9 @@ Of course we would use our design system components in the example app, and care
 
 The true objective and measure of our workshop's success was if we could level up developers across the company.
 
-(edit) we promised them...
-
 We had so many sign ups we offered it twice and reached a staggering percentage of our product teams.
 
-I would give it again the following spring, and less than a year later with three new members of our team, we unveiled a new workshop that taught the fundamentals of responsive design with our new grid/flex component, CSS breakpoints and a few new tricks we had woven into the design system.
+I would give it again the following spring, and less than a year later with three new members of our team, we unveiled a new workshop that taught the fundamentals of responsive design with our latest components.
 -->
 
 ---
