@@ -413,7 +413,20 @@ I would give it again the following spring, and less than a year later with thre
 -->
 
 ---
+layout: image
+image: lifeguard.jpg
+---
 
+# Office Hours
+
+<style>
+  h1 {
+    background-color: #000;
+    font-size: 64px;
+    line-height: 80px;
+    width: 380px;
+  }
+</style>
 <!--
 Between these workshops, we kept the conversation going regularly in two ways.
 
@@ -429,9 +442,24 @@ folks would join and just hang out. it felt like a club, one that welcomed anyon
 -->
 
 ---
+layout: image
+image: on-air.jpg
+---
 
+# Release Demos
+
+<style>
+  h1 {
+    background-color: #000;
+    font-size: 64px;
+    line-height: 80px;
+    width: 460px;
+    right: 50px;
+    position: absolute;
+  }
+</style>
 <!--
-4:28:15 (edit) maybe demo gif of apple
+
 The other way we kept up with everyone was with our release demos.
 
 We started on a monthly schedule with every minor version, but we saw two things happen.
@@ -442,53 +470,151 @@ Second, as the company grew from around 10,000 employees to around 16,000, we co
 
 So we dialed it back to every six months, to match our major release schedule, and dialed it up to be even more polished and prepared.
 
-(option to introduce slide on predictability - minor and major, and even majors vs odd majors)
 -->
 
 ---
+layout: image
+image: calendar.jpg
+---
+
+# Release Schedule
+
+<style>
+  h1 {
+    background-color: #000;
+    font-size: 64px;
+    line-height: 80px;
+    width: 280px;
+    text-align: right;
+    right: 50px;
+    position: absolute;
+  }
+</style>
 
 <!--
-I'll never forget my last release demo in May 2023. Along with a design partner in Ireland, Zoe, thank you by the way, we put together a Boy Bands theme.
+We also created a predictable release schedule that was mapped out months in advance.
 
-We had a playlist of pop favorites from the late 90s and early 2000s. We dressed up like we were music stars, and sprinkled lyrics everywhere in our presentation.
+Major releases would arrive roughly 6 months apart.
 
-we made it a party, and I think this was an undercount, but I think we had somewhere over 70 folks join in our single biggest Zoom call ever
+The May release would intentionally have more breaking changes, while the fall release would be less impactful, but still significant with new features.
+
+This built more trust with our consumers, as we showed we were predictable and
 -->
 ---
+layout: image
+image: up.jpg
+---
+
+# Adoption
+
+<style>
+  h1 {
+    background-color: #000;
+    font-size: 64px;
+    line-height: 80px;
+    width: 290px;
+  }
+</style>
+
 
 <!--
 So...
 
 what did this do for adoption?
 
-well, while I was tracking demo attendance and Slack statistics to track our community,(edit - consider showing a trend of community and a ? for usage) my friend Alan was measuring component usage and library version (edit) month by month.
+well, while I was tracking demo attendance and Slack statistics to track our community, my friend Alan was measuring component usage and what version of our library was installed by each product, month by month.
 
 Not only did we see our adoption grow and accelerate, but Alan led the effort to reach out to product teams directly, to make sure they knew how we could help them ship faster using the design system, and also find out why some projects were years behind on their library version.
 -->
 ---
+layout: image
+image: package.jpg
+---
 
+# Dependencies...
+
+<style>
+  h1 {
+    background-color: #000;
+    font-size: 64px;
+    line-height: 80px;
+    width: 500px;
+  }
+</style>
 <!--
 It turns out there was significant lag between when we released a major version, and when teams would update their dependency and take advantage of the latest and greatest.
 
 Early on in my tenure, we had a brainstorm session on what would go into our v5 release in the spring of 2021. I knew how tedious it was to manually edit potentially hundreds of lines of code in a repo, just to update a single dependency. Dependency management was painful, no matter how you went about it.
 
 We were moving to compound components too, and that often meant expanding one line of JSX into many more.
-
-So I asked: what if we shipped code mods in v5? We could automate many of our breaking changes.
-
-the team... (edit) This would become a staple of every major release. Breaking changes? Yes. Hundreds of lines impacted? Ummm, yeah. You can apply this in minutes? Woah (use the Keanu gif!).
-
 -->
 ---
+layout: image
+image: wood-tools.jpg
+---
 
+# Tooling
+
+<style>
+  h1 {
+    background-color: #000;
+    font-size: 64px;
+    line-height: 80px;
+    width: 240px;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    padding-left: 15px;
+  }
+</style>
 
 <!--
-OK, quick timeout, I'm giving a workshop tomorrow on how to write your own code mods. i think it's sold out, but check the website and make sure you are there if there's room!
+So I asked: what if we shipped code mods in v5? We could automate many of our breaking changes.
 
-(repeat the i will teach you line)
+A code mod would automatically rewrote code using our previous version, to use the new version. It could significantly reduce developer effort in applying an upgrade.
+
+Our team went for out.
+
+This would become a staple of every major release from then on
+
+Breaking changes? Yes. Thousands of lines of code impacted across the company? Ummm, yeah. You can apply this in minutes? OHHH yeah.
+
+-->
+---
+layout: image
+image: mic.jpg
+---
+
+# Learn how!
+
+<style>
+  h1 {
+    background-color: #000;
+    font-size: 64px;
+    line-height: 80px;
+    width: 330px;
+  }
+</style>
+<!--
+OK, quick timeout, I'm giving a workshop tomorrow on how to write your own code mods. it may be full, but we added 10 more spots. check tomorrow in case a spot opens up
+
 -->
 
 ---
+layout: image
+image: path.jpg
+---
+
+# A Clear Path
+
+<style>
+  h1 {
+    background-color: #000;
+    font-size: 64px;
+    line-height: 80px;
+    width: 370px;
+  }
+</style>
 
 <!--
 We didn't just ship code mods, but rich upgrade guides.
@@ -501,87 +627,160 @@ We described how this would affect design and visual presentation.
 
 We described how it would change the implementation in code.
 
-We noted if there was a code mod, which couldn't always be done, but happened for almost everything. (edit - need a pseudo table of this)
+We noted if there was a code mod, which couldn't always be done, but happened for almost everything.
 
 And in our release demos, we wouldn't just showcase our new components, but walk through the impact of every change.
 
-I remember a particular office hours where someone joined to ask about updating their library from 4 versions back. We did a screen share, opened up our upgrade guide, and I went and ran the code mods. We bumped to the next version, and I ran the code mods again. They were so impressed, they asked to end the call, they wanted to try the last two upgrades without me, assisted by the upgrade guide and our code mods.
+I remember an office hours session where someone joined to ask about updating their library from 4 versions back. We did a screen share, opened up our upgrade guide, and I went and ran the code mods. We bumped to the next version, and I ran the code mods again. They were so impressed, they asked to end the call, they wanted to try the last two upgrades without me, assisted by the upgrade guide and our code mods.
 
 A half hour later, they told me they were done, and their product was all caught up. We had moved them up four major versions in well under an hour.
 
+It's hard to upgrade a dependency when you don't know the scope it will entail.
+
+Having code mods and clear upgrade guides simplifed this to the smallest effort possible.
+
 -->
 ---
-
+layout: image
+image: fire.jpg
+---
 # Crisis
+
+<style>
+  h1 {
+    background-color: #000;
+    font-size: 64px;
+    line-height: 80px;
+    width: 370px;
+  }
+</style>
 
 <!--
 Remember our Slack channel?
 
 It tripled in size over 2 and a half years.
 
-We continued to field questions and challenges that were intended for other teams, like when our platform engineering team :cough: at mentioned everyone in the channel about a required React 18 upgrade (meme about woah what), and how it was happening in a month's time - actually leaving a number of teams scrambling to account for it.
+We continued to field questions and challenges that were intended for other teams, but there was a moment where this came up very unexpectedly.
 
-It was the biggest UI channel in our company's Slack, so yeah, if you want to get the word out, (edit use it)@ mention everyone.
+Our platform engineering team used @channel to ping our entire community about a required React version upgrade, and how it was happening in a month's time - actually leaving a number of teams scrambling, with no free time to handle it.
 
-By the way, we never @ mentioned anyone. We always made our announcements shiny but concise. We would say "more details are in the thread" with only the most interesting parts mentioned in the initial message.
+We had the biggest UI channel in our company's Slack, so yeah, if you want to get the word out, you _could_ @ mention everyone.
 
-We considered everyone's time and attention to be precious, so we made sure every communication with our community was well-crafted and thoughtful. ((edit) consider citing My here)
+Which - we never did. We always made our announcements shiny but concise. We would say "more details are in the thread" with only the most interesting parts mentioned in the initial message.
 
-But when this React 18 grenade went off, we jumped on it. We believed it would have a consequential impact that could hurt our entire company's performance. Some teams were actually quite upset, they had their own deadlines and milestones established, and this was coming from a place they didn't expect(edit).
+We considered everyone's time and attention to be precious, so we made sure every message to our community was well-crafted and thoughtful.
 
-I remember joining a call to help one of those teams, I invited the right folks from the platform team, they did not attend, and after 30 minutes the product team would realize:
+But when this React dependency grenade went off, we jumped on it. We believed it would have a consequential impact on our consumers, even if we weren't the cause. Some teams were quite upset, they had their own deadlines and milestones established, and this was coming from a place they didn't expect.
 
-it wasn't the design system team that had made the call on executing the React dependency change. they were mad at us at first, because the way the platform team had announced it, in our channel, it made it seem like we were the ones responsible.
+I remember joining a call to help one of those teams, I invited the right folks from the platform team too, they did _not_ attend, and after 30 minutes the product team would realize:
 
-We were coming from a very different place of support and compatibility. We supported the new version of react I think about a year in advance, and we continued to be backwards compatible with React 17 for some time after this. (edit show a timeline where we were cool) But we cared that their concerns were heard, and while we might not have pulled the pin on the grenade, we were there to put it back.
+it wasn't the design system team that had made the call on the React dependency change. they were mad at us at first, because the way the platform team had announced it, in our channel, it made it seem like we were the ones responsible.
 
-I remember I was really upset the first time this happened in 2022. I dropped everything and scrambled to help address the issue. But... in 2023 a different team from the same group would make the same. exact. mistake. (edit why have this)
+We were coming from a very different place of support and compatibility too. We supported the new version of react I think about a year in advance of this
+
+and we continued to be backwards compatible with the previous version for some time after. But we cared that their concerns were heard and understood, and while we might not have pulled the pin on the grenade, we were there to put it back.
+
+when they figured out where we stood in all of this, the conversation shifted. our reputation wasn't just repaired, they left that call with even more respect for us.
 -->
 
 ---
+layout: image
+image: point.jpg
+---
 
-# Trust yields friendship
+# Advocacy
+
+<style>
+  h1 {
+    background-color: #000;
+    font-size: 64px;
+    line-height: 80px;
+    width: 300px;
+    position: absolute;
+    bottom: 50px;
+    padding-left: 10px;
+  }
+</style>
 
 <!--
 Over this time, we established many friends through office hours, demos, and jumping on calls whenever people asked.
 
-Over this time, we would hear from new people, and they would tell us, that our friends had spoken very highly of us. Keep in mind, we were never "mandated" to product teams to use. We had to earn our place in their tech stack. And earn it we did. But what really got us there, couldn't be the effort of a single developer advocate, or even our entire team.
+Over this time, we would hear from new people we never heard of before, and they would tell us what other people _they_ respected were saying about us.
 
-It was our friends that were advocating FOR us, behind their own closed doors, around the world in Canada, the bay area, Ireland, and other offices around Europe. We heard about it quite a lot - which tells me... it was happening many times more.
+Keep in mind, we were never "mandated" for product teams to use. We had to earn our place in their tech stack. And earn it we did. But what really got us there, couldn't be the effort of a single developer advocate, or even our entire team.
 
-At times, we saw it in our SLack channel too. We were quick, maybe too quick, to answer questions, but we would see folks around the community show up and help out. Our team could take time off, and questions would still get answered, not by us, but by the community itself.
+It was our friends that were advocating FOR us, behind their own closed doors, around the world in Canada, the bay area, Ireland, and other offices around Europe. We heard about it quite a lot - and I think it's safe to guess, it was happening even more than we knew.
+
+At times, we saw it for ourselves in Slack channel.
+
+We also saw folks help out more and more. I facilitated dozens of open source contributions from outside our team. And questions in our channel were getting answered by other community members, without our team needing to respond.
 -->
+
+---
+layout: image
+image: fireworks.jpg
 ---
 
-
 <!--
-In May of 2023, I gave my last release demo, the boy bands themed celebration of UI components that I'll never forget.
+In May of 2023, I gave my last release demo, it was themed around boy bands from the late 90s, we had a playlist with NSync, and Boyzone. We dressed up, we made it a party.
 
-I gave my last workshop, and completed seven other projects in that month to send things off.
+I gave my last workshop a couple days later, and completed seven other projects that month to send things off.
 
 If there's anything I hope you'll gather from this talk, I hope you see it's not the design or the code that will make a design system.
 
-Frankly, to deliver accessible and useful components (edit) that serve..., it takes the best of us doing our best work to make that happen.
+Those things are important, and critical, and I wish they were enough.
 
-But what will make the difference isn't how good we implement, or even deliver. It takes something else built atop our technical excellence. That is what I hope we learn to do.
+But what will make the difference isn't how good we implement, or even deliver. It takes something else beyond technical excellence. That is what I hope we strive for.
 -->
+---
+layout: image
+image: heart.jpg
+---
 
 <!--
 
-I hope we create a developer experience that people can only fall into, like a pit of success, and they can't help but build great things. and of course, a designer experience that does the same
-
 I hope we build communities that are warm, and helpful.
 
-I hope we make friends that we share our time and energy with generously.
+I hope we build tools to help other developers, and spend hours of our time to save them many more.
 
-I hope we help out even when it's not our proble (edit), because we care about everyone involved.
+I hope we make friends that we share our time and energy with generously.
 
 I hope we have fun, I hope we make it a party.
 
 I believe, that's what make a design system win.
 
 -->
---
+---
+layout: image
+image: thank-you.jpg
+---
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
+## <carbon-logo-x /> @willklein_
+
+## <carbon-link /> willklein.co
+
+## <carbon-lightning /> toolspace.dev
+
+
+<style>
+  h1 {
+    /* background-color: #000; */
+    font-size: 64px;
+    line-height: 80px;
+    width: 300px;
+  }
+</style>
 
 <!--
 I now work on developer tools full-time at Toolspace, a consultancy I started earlier this year.
@@ -591,541 +790,4 @@ fade in email, socials, and thank you
 I'm here if you ever want to talk about design systems, it's one of my favorite subjects, along with improving the developer experience.
 
 Thank you.
-4:42:45
 -->
----
-
-
----
-<!-- https://sli.dev/guide/animations.html#click-animation -->
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-  alt=""
-/>
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
-
----
-layout: two-cols
-layoutClass: gap-16
----
-
-# Table of contents
-
-You can use the `Toc` component to generate a table of contents for your slides:
-
-```html
-<Toc minDepth="1" maxDepth="1"></Toc>
-```
-
-The title will be inferred from your slide content, or you can override it with `title` and `level` in your frontmatter.
-
-::right::
-
-<Toc v-click minDepth="1" maxDepth="2"></Toc>
-
----
-layout: image-right
-image: https://cover.sli.dev
----
-
-# Code
-
-Use code snippets and get the highlighting directly, and even types hover!
-
-```ts {all|5|7|7-8|10|all} twoslash
-// TwoSlash enables TypeScript hover information
-// and errors in markdown code blocks
-// More at https://shiki.style/packages/twoslash
-
-import { computed, ref } from 'vue'
-
-const count = ref(0)
-const doubled = computed(() => count.value * 2)
-
-doubled.value = 2
-```
-
-<arrow v-click="[4, 5]" x1="350" y1="310" x2="195" y2="334" color="#953" width="2" arrowSize="1" />
-
-<!-- This allow you to embed external code blocks -->
-<<< @/snippets/external.ts#snippet
-
-<!-- Footer -->
-
-[Learn more](https://sli.dev/features/line-highlighting)
-
-<!-- Inline style -->
-<style>
-.footnotes-sep {
-  @apply mt-5 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
-
-<!--
-Notes can also sync with clicks
-
-[click] This will be highlighted after the first click
-
-[click] Highlighted with `count = ref(0)`
-
-[click:3] Last click (skip two clicks)
--->
-
----
-level: 2
----
-
-# Shiki Magic Move
-
-Powered by [shiki-magic-move](https://shiki-magic-move.netlify.app/), Slidev supports animations across multiple code snippets.
-
-Add multiple code blocks and wrap them with <code>````md magic-move</code> (four backticks) to enable the magic move. For example:
-
-````md magic-move {lines: true}
-```ts {*|2|*}
-// step 1
-const author = reactive({
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-})
-```
-
-```ts {*|1-2|3-4|3-4,8}
-// step 2
-export default {
-  data() {
-    return {
-      author: {
-        name: 'John Doe',
-        books: [
-          'Vue 2 - Advanced Guide',
-          'Vue 3 - Basic Guide',
-          'Vue 4 - The Mystery'
-        ]
-      }
-    }
-  }
-}
-```
-
-```ts
-// step 3
-export default {
-  data: () => ({
-    author: {
-      name: 'John Doe',
-      books: [
-        'Vue 2 - Advanced Guide',
-        'Vue 3 - Basic Guide',
-        'Vue 4 - The Mystery'
-      ]
-    }
-  })
-}
-```
-
-Non-code blocks are ignored.
-
-```vue
-<!-- step 4 -->
-<script setup>
-const author = {
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-}
-</script>
-```
-````
-
----
-
-# Components
-
-<div grid="~ cols-2 gap-4">
-<div>
-
-You can use Vue components directly inside your slides.
-
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
-
-```html
-<Counter :count="10" />
-```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
-
-</div>
-<div>
-
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
-</div>
-
-<!--
-Presenter note with **bold**, *italic*, and ~~striked~~ text.
-
-Also, HTML elements are valid:
-<div class="flex w-full">
-  <span style="flex-grow: 1;">Left content</span>
-  <span>Right content</span>
-</div>
--->
-
----
-class: px-20
----
-
-# Themes
-
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
-
-<div grid="~ cols-2 gap-2" m="t-2">
-
-```yaml
----
-theme: default
----
-```
-
-```yaml
----
-theme: seriph
----
-```
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true" alt="">
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true" alt="">
-
-</div>
-
-Read more about [How to use a theme](https://sli.dev/guide/theme-addon#use-theme) and
-check out the [Awesome Themes Gallery](https://sli.dev/resources/theme-gallery).
-
----
-
-# Clicks Animations
-
-You can add `v-click` to elements to add a click animation.
-
-<div v-click>
-
-This shows up when you click the slide:
-
-```html
-<div v-click>This shows up when you click the slide.</div>
-```
-
-</div>
-
-<br>
-
-<v-click>
-
-The <span v-mark.red="3"><code>v-mark</code> directive</span>
-also allows you to add
-<span v-mark.circle.orange="4">inline marks</span>
-, powered by [Rough Notation](https://roughnotation.com/):
-
-```html
-<span v-mark.underline.orange>inline markers</span>
-```
-
-</v-click>
-
-<div mt-20 v-click>
-
-[Learn more](https://sli.dev/guide/animations#click-animation)
-
-</div>
-
----
-
-# Motions
-
-Motion animations are powered by [@vueuse/motion](https://motion.vueuse.org/), triggered by `v-motion` directive.
-
-```html
-<div
-  v-motion
-  :initial="{ x: -80 }"
-  :enter="{ x: 0 }"
-  :click-3="{ x: 80 }"
-  :leave="{ x: 1000 }"
->
-  Slidev
-</div>
-```
-
-<div class="w-60 relative">
-  <div class="relative w-40 h-40">
-    <img
-      v-motion
-      :initial="{ x: 800, y: -100, scale: 1.5, rotate: -50 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-square.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ y: 500, x: -100, scale: 2 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-circle.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ x: 600, y: 400, scale: 2, rotate: 100 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-triangle.png"
-      alt=""
-    />
-  </div>
-
-  <div
-    class="text-5xl absolute top-14 left-40 text-[#2B90B6] -z-1"
-    v-motion
-    :initial="{ x: -80, opacity: 0}"
-    :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
-    Slidev
-  </div>
-</div>
-
-<!-- vue script setup scripts can be directly used in markdown, and will only affects current page -->
-<script setup lang="ts">
-const final = {
-  x: 0,
-  y: 0,
-  rotate: 0,
-  scale: 1,
-  transition: {
-    type: 'spring',
-    damping: 10,
-    stiffness: 20,
-    mass: 2
-  }
-}
-</script>
-
-<div
-  v-motion
-  :initial="{ x:35, y: 30, opacity: 0}"
-  :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
-
-[Learn more](https://sli.dev/guide/animations.html#motion)
-
-</div>
-
----
-
-# LaTeX
-
-LaTeX is supported out-of-box. Powered by [KaTeX](https://katex.org/).
-
-<div h-3 />
-
-Inline $\sqrt{3x-1}+(1+x)^2$
-
-Block
-$$ {1|3|all}
-\begin{aligned}
-\nabla \cdot \vec{E} &= \frac{\rho}{\varepsilon_0} \\
-\nabla \cdot \vec{B} &= 0 \\
-\nabla \times \vec{E} &= -\frac{\partial\vec{B}}{\partial t} \\
-\nabla \times \vec{B} &= \mu_0\vec{J} + \mu_0\varepsilon_0\frac{\partial\vec{E}}{\partial t}
-\end{aligned}
-$$
-
-[Learn more](https://sli.dev/features/latex)
-
----
-
-# Diagrams
-
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
-
-<div class="grid grid-cols-4 gap-5 pt-4 -mb-6">
-
-```mermaid {scale: 0.5, alt: 'A simple sequence diagram'}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
-
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-```mermaid
-mindmap
-  root((mindmap))
-    Origins
-      Long history
-      ::icon(fa fa-book)
-      Popularisation
-        British popular psychology author Tony Buzan
-    Research
-      On effectiveness<br/>and features
-      On Automatic creation
-        Uses
-            Creative techniques
-            Strategic planning
-            Argument mapping
-    Tools
-      Pen and paper
-      Mermaid
-```
-
-```plantuml {scale: 0.7}
-@startuml
-
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
-
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
-
-cloud {
-  [Example 1]
-}
-
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
-  }
-  frame "Foo" {
-    [Frame 4]
-  }
-}
-
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
-
-@enduml
-```
-
-</div>
-
-Learn more: [Mermaid Diagrams](https://sli.dev/features/mermaid) and [PlantUML Diagrams](https://sli.dev/features/plantuml)
-
----
-foo: bar
-dragPos:
-  square: 691,32,167,_,-16
----
-
-# Draggable Elements
-
-Double-click on the draggable elements to edit their positions.
-
-<br>
-
-###### Directive Usage
-
-```md
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-```
-
-<br>
-
-###### Component Usage
-
-```md
-<v-drag text-3xl>
-  <carbon:arrow-up />
-  Use the `v-drag` component to have a draggable container!
-</v-drag>
-```
-
-<v-drag pos="663,206,261,_,-15">
-  <div text-center text-3xl border border-main rounded>
-    Double-click me!
-  </div>
-</v-drag>
-
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-
-###### Draggable Arrow
-
-```md
-<v-drag-arrow two-way />
-```
-
-<v-drag-arrow pos="67,452,253,46" two-way op70 />
-
----
-src: ./pages/imported-slides.md
-hide: false
----
-
----
-
-# Monaco Editor
-
-Slidev provides built-in Monaco Editor support.
-
-Add `{monaco}` to the code block to turn it into an editor:
-
-```ts {monaco}
-import { ref } from 'vue'
-import { emptyArray } from './external'
-
-const arr = ref(emptyArray(10))
-```
-
-Use `{monaco-run}` to create an editor that can execute the code directly in the slide:
-
-```ts {monaco-run}
-import { version } from 'vue'
-import { emptyArray, sayHello } from './external'
-
-sayHello()
-console.log(`vue ${version}`)
-console.log(emptyArray<number>(10).reduce(fib => [...fib, fib.at(-1)! + fib.at(-2)!], [1, 1]))
-```
-
----
-layout: center
-class: text-center
----
-
-# Learn More
-
-[Documentation](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/resources/showcases)
-
-<PoweredBySlidev mt-10 />
