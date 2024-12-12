@@ -62,7 +62,9 @@ Back in March 2018, I started working in Boulder, and I could see it everyday I 
 
 I joined a big tech company to work on a flagship project. The kind of thing that moves the stock price.
 
-our challenge... was to improve the UX for over 60. MILLION. users.
+Where I worked really doesn't matter, it could have been anywhere, and in fact, I've seen these lessons on other projects, other teams, and seen them resonate in the experiences of other developers I've talked to.
+
+our challenge in this case though, was to improve the UX for over 60. MILLION. users.
 
 -->
 ---
@@ -768,7 +770,7 @@ If there's anything I hope you'll gather from this talk, I hope you see it's not
 
 Those things are important, and critical, and I wish they were enough.
 
-But what will make the difference isn't how good we implement, or even deliver. It takes something else beyond technical excellence. That is what I hope we strive for.
+But what will make the difference isn't how good we implement, or even deliver. It takes something else beyond technical excellence.
 -->
 ---
 layout: image
@@ -823,9 +825,7 @@ image: thank-you.jpg
 <!--
 I now work on developer tools full-time at Toolspace, a consultancy I started earlier this year.
 
-fade in email, socials, and thank you
-
-I'm here if you ever want to talk about design systems, it's one of my favorite subjects, along with improving the developer experience.
+I'm here if you ever want to talk about design systems or internal developer relations. Please don't hesitate to find me online, in-person, I'd love to hear what you're working on, what your challenges look like, and explore how we can improve the developer experience for all of us.
 
 Thank you.
 -->
