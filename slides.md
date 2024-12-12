@@ -1,15 +1,13 @@
 ---
 # You can also start simply with 'default'
 theme: default
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
+
 # some information about your slides (markdown enabled)
 title: Design System Success
 info: |
   ## Design System Success
 
-  learn more at willklein/design
+  A talk by Will Klein. Learn more at https://www.willklein.co/
 # apply unocss classes to the current slide
 class: text-center
 # https://sli.dev/features/drawing
@@ -23,15 +21,6 @@ mdc: true
 overviewSnapshots: true
 ---
 
-<div class="abs-br m-6 flex gap-2">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub" title="Open in GitHub"
-    class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon-logo-github />
-  </a>
-</div>
 ---
 layout: image
 image: flatirons.jpg
@@ -70,8 +59,28 @@ our challenge... was to improve the UX for over 60. MILLION. users.
 -->
 
 ---
-transition: fade-out
+layout: image
+image: flatirons.jpg
 ---
+
+# Boulder, Colorado, USA
+## March 2018
+
+
+<style>
+  h1 {
+    color: #000;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 64px;
+  }
+  h2 {
+    color: #000;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 48px;
+  }
+</style>
 
 <!--
 This was an enterprise app, where a hundred products were shuffled together into a single frankenstein of a user experience.
@@ -84,8 +93,30 @@ floating in the bottom right corner of every web page, and taking one of four na
 
 it would be ubiquitious.
 -->
+
+---
+layout: image
+image: flatirons.jpg
 ---
 
+# Boulder, Colorado, USA
+## March 2020
+
+
+<style>
+  h1 {
+    color: #000;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 64px;
+  }
+  h2 {
+    color: #000;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 48px;
+  }
+</style>
 <!--
 And after two years building and shipping our little chat bubble, we had succeeded in almost every measure.
 
