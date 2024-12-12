@@ -1,7 +1,7 @@
 ---
 # You can also start simply with 'default'
 theme: default
-
+background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
 title: Design System Success
 info: |
@@ -57,7 +57,6 @@ I joined a big tech company to work on a flagship project. The kind of thing tha
 our challenge... was to improve the UX for over 60. MILLION. users.
 
 -->
-
 ---
 layout: image
 image: flatirons.jpg
