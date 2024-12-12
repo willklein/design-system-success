@@ -1,7 +1,7 @@
 ---
 # You can also start simply with 'default'
 theme: default
-background: https://cover.sli.dev
+background: knot.jpg
 # some information about your slides (markdown enabled)
 title: Design System Success
 info: |
@@ -21,6 +21,14 @@ mdc: true
 overviewSnapshots: true
 ---
 
+
+<!--
+So this talk wasn't originally a part of the schedule, but I volunteered it yesterday in the event that another speaker wasn't able to make it here. Unfortunately, this was the case for someone, and I want to recognize their hard work to prepare for this conference, and let's send them some good vibes that they are feeling better and they are missed.
+
+Thank you all for welcoming me on short notice, I am also sharing a talk on testing this Monday on the Remote Day, but I came her in-person because I've heard such great things about the community here. I appreciate the chance to share another topic near and dear to my heart.
+
+With that said, I have a story to tell...
+-->
 ---
 layout: image
 image: flatirons.jpg
@@ -235,11 +243,11 @@ image: hire.jpg
 ---
 
 <!--
-The year before, a very good friend of mine was looking for a design system to work on, and I recommended him to the manager. He would immediately become their most senior developer and strongest technical leader.
+I had played a major role in shaping this team as well.
 
-And a year later, shortly before the Zoom call, I would recommend another rising star who I knew from the local meetup scene, and he would eventually become a second staff level developer on the team.
+I had recommended they hire two of my friends - both of whom I met from meetups and conferences.
 
-I had played a major role in shaping this team, and it was already exceptional to begin with.
+They would become co-leads on the project.
 -->
 
 ---
@@ -252,7 +260,7 @@ As the pandemic began, I needed a change for myself. I was experiencing the long
 
 I thought about trying a different kind of work, I looked at the design system problem, and I took a chance on a wild idea.
 
-I was on parental leave for our third child, when I asked their manager, Lynn, if he would jump on a call with me.
+I was on parental leave wondering what I would do to turn my career around, when I asked their manager, Lynn, if he would jump on a call with me.
 
 I brought up my experience NOT using their system.
 
@@ -268,9 +276,9 @@ image: bulb.jpg
 
 <!--
 
-Despite my warnings - he was thrilled with the idea
+Despite my warnings - he was all in. He got to work creating headcount and a new role that never existed before. I remember he sent me an empty document to create my job description.
 
-Four months later, I joined the team as their design system developer advocate.
+Four months later, I joined the team as their very first design system developer advocate.
 
 Now before I continue any further in the story, I need to be very clear about something.
 
@@ -285,7 +293,7 @@ image: bridge-frame.webp
 
 My experience as a non-consumer wasn't their fault, but a symptom of a common challenge across many design systems at growing companies.
 
-This is also a common challenge in areas outside of design systems, in platform engineering teams, and really, anytime you produce code or design that other teams depend on, it can be a battle to win over consumers and earn their adoption.
+This is also a common challenge in areas outside of design systems, in platform engineering teams, and really, anytime you produce code (or design) that other teams depend on, it can be a battle to win over consumers and earn their adoption.
 
 It is extremely likely that if you haven't already, you will encounter this kind of challenge in your career, design systems or elsewhere.
 
